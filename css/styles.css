@@ -9,11 +9,15 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 html {
     font-family: "Nunito Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 0.8vw;
     line-height: normal;
 }
 
@@ -26,7 +30,7 @@ html {
 
 .header {
     width: auto;
-    height: 83px;
+    height: 6vw;
     background: #131313;
 }
 
@@ -36,7 +40,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 90px;
+    padding: 0 6.4vw;
 }
 
 .header__naming {
@@ -47,7 +51,7 @@ html {
 .header__list {
     display: flex;
     justify-content: space-around;
-    gap: 47px;
+    gap: 3.4vw;
 }
 
 .header__list_link {
@@ -69,8 +73,8 @@ html {
 }
 
 .header__btn {
-    width: 161px;
-    height: 37px;
+    width: 11.5vw;
+    height: 2.6vw;
     flex-shrink: 0;
     border-radius: 2px;
     background: #E3B873;
@@ -79,5 +83,85 @@ html {
     text-align: center;
     font-style: italic;
     text-transform: uppercase;
-    cursor: pointer;
+}
+
+/* main part */
+
+.section-deal {
+    width: 100%;
+    height: 50vw;
+    flex-shrink: 0;
+    position: relative;
+    background: url(../images/deal.jpg);
+    background-size: cover;
+}
+
+.section-deal__wrapper {
+    width: 48.3vw;
+    height: 21.8vw;
+    flex-shrink: 0;
+    margin-top: 13.8vw;
+    margin-left: 9.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-deal__background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.section-deal__wrapper_title {
+    margin: 0;
+    color: #FFF;
+    font-family: "Yeseva One";
+    font-size: 2.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.825%;
+    text-transform: uppercase;
+}
+
+.section-deal__wrapper_title span {
+    color: #E3B873;
+}
+
+.section-deal__wrapper_subtitle {
+    color: #FFF;
+    font-size: 1.6vw;
+    line-height: 163.68%;
+}
+
+.section-deal__wrapper_btn {
+    display: flex;
+    gap: 1.5vw;
+}
+
+.section-deal__wrapper_calculate-btn {
+    width: 14.8vw;
+    height: 3.6vw;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 0;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.30);
+    color: #FFF;
+    text-align: center;
+    font-style: italic;
+}
+
+.section-deal__wrapper_submit-btn {
+    width: 14.8vw;
+    height: 3.6vw;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-style: italic;
 }
