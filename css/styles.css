@@ -77,6 +77,7 @@ html {
     height: 2.6vw;
     flex-shrink: 0;
     border-radius: 2px;
+    border: 0;
     background: #E3B873;
     box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
     color: #FFF;
@@ -164,4 +165,195 @@ html {
     color: #FFF;
     text-align: center;
     font-style: italic;
+}
+
+.section-completed {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 100%;
+    height: 76.7vw;
+    background-color: #131313;
+    padding: 0 9.4vw;
+    gap: auto;
+}
+
+.section-completed__wrapper {
+    grid-column: 1;
+    grid-row: 1;
+    width: 31.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 12.5vw;
+    gap: 2.4vw;
+}
+
+.section-completed__wrapper span {
+    margin: 0;
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-size: 2vw;
+    line-height: 138.6%;
+    /* 37.422px */
+    letter-spacing: -1.89px;
+    text-transform: uppercase;
+}
+
+.section-completed__wrapper p {
+    color: #FFF;
+    font-size: 1vw;
+    line-height: 190.96%;
+    /* 26.734px */
+    margin: 0;
+}
+
+.section-completed__data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2.4vw 0;
+    width: 85%;
+}
+
+.section-completed__data_block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+.section-completed__data_block:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.section-completed__data_block:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.section-completed__data_block:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.section-completed__data_block:nth-child(4) {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.section-completed__data_block span {
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-size: 1.3vw;
+    line-height: 138.6%;
+    /* 24.948px */
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section-completed__data_block p {
+    color: #FFF;
+    font-size: 1vw;
+    line-height: 163.68%;
+    /* 21.278px */
+}
+
+.section-completed__wrapper_slider {
+    width: 214.6vw;
+    height: 1vw;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.section-completed__interior {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.section-completed__interior_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    color: rgba(255, 255, 255, 0.30);
+    font-family: "Yeseva One";
+    font-size: 1vw;
+    line-height: 138.6%;
+    /* 19.404px */
+    text-transform: uppercase;
+    gap: 4.3vw;
+    margin-top: 7.6vw;
+    margin-bottom: 3.3vw;
+    padding: 0;
+}
+
+.section-completed__interior_list li {
+    cursor: pointer;
+}
+
+.section-completed__interior_list li:first-child {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    ;
+}
+
+.section-completed__interior_image {
+    width: 48vw;
+    height: 34.5vw;
+    flex-shrink: 0;
+    background: url(../images/section-completed__interior_image.png);
+    background-size: cover;
+}
+
+.section-completed__online {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-completed__online_logo {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-top: 6.6vw;
+}
+
+.section-completed__online_logo span {
+    color: #FFF;
+    text-align: center;
+    font-family: "Yeseva One";
+    font-size: 1.4vw;
+    line-height: 138.6%;
+    /* 27.72px */
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section-completed__online_logo div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6vw;
+    margin-bottom: 2.2vw;
+}
+
+.section-completed__online_video {
+    width: 58.3vw;
+    height: 31vw;
+    flex-shrink: 0;
+    background: url(../images/online-video.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.section-completed__online_video div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.80);
 }
