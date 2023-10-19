@@ -302,7 +302,7 @@ html {
     width: 48vw;
     height: 34.5vw;
     flex-shrink: 0;
-    background: url(../images/section-completed__interior_image.png);
+    background: url(../images/section-completed__interior_image.jpg);
     background-size: cover;
 }
 
@@ -344,7 +344,7 @@ html {
     width: 58.3vw;
     height: 31vw;
     flex-shrink: 0;
-    background: url(../images/online-video.png);
+    background: url(../images/online-video.jpg);
     background-size: cover;
     cursor: pointer;
 }
