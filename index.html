@@ -86,15 +86,15 @@
                 <div class="section-completed__online">
                     <div class="section-completed__online_logo">
                         <span>online control</span>
-                        <div>
-                            <img src="./images/rectangle.jpg" alt="rectangle">
+                        <div class="section-completed__online_img">
+                            <img src="./images/rectangle.svg" alt="rectangle">
                             <img src="./images/camera.svg" alt="camera-logo">
-                            <img src="./images/rectangle.jpg" alt="rectangle">
+                            <img src="./images/rectangle.svg" alt="rectangle">
                         </div>
                     </div>
                     <div class="section-completed__online_video">
-                        <div>
-                            <img src="./images/play.svg" alt="play-button">
+                        <div class="section-completed__online_wrapper">
+                            <img class="section-completed__online_play" src="./images/play.svg" alt="play-button">
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                                 <li>Replacing doors</li>
                             </ul>
                         </div>
-                            <span>from 900 rub / m2</span>
+                        <span>from 900 rub / m2</span>
                     </div>
                     <div class="section-types__cards_card">
                         <div class="section-types__cards_card-block">
@@ -162,7 +162,7 @@
                                 <li>Replacing doors</li>
                             </ul>
                         </div>
-                            <span>from 1800 rub / m2</span>
+                        <span>from 1800 rub / m2</span>
                     </div>
                     <div class="section-types__cards_card">
                         <div class="section-types__cards_card-block">
@@ -177,49 +177,168 @@
                                 <li>Replacing doors</li>
                             </ul>
                         </div>
-                            <span>from 4000 rub / m2</span>
+                        <span>from 4000 rub / m2</span>
                     </div>
                 </div>
             </section>
             <section class="section-request">
-<div class="section-request__steps"></div>
-<div class="section-request__form">
-    <p>Leave a request for free<br>
-        departure of the measurer</p>
-        <div class="section-request__input-area">
-            <div class="section-request__input-area_input">
-                <p>Name</p>
-                <div class="section-request__input-area_block">
-                    <span>What is your name:</span>
-                    <input type="text" name="name">
+                <div class="section-request__steps"></div>
+                <div class="section-request__form">
+                    <p>Leave a request for free<br>
+                        departure of the measurer</p>
+                    <div class="section-request__input-area">
+                        <div class="section-request__input-area_input">
+                            <p>Name</p>
+                            <div class="section-request__input-area_block">
+                                <span>What is your name:</span>
+                                <input type="text" name="name">
+                            </div>
+                        </div>
+                        <div class="section-request__input-area_input">
+                            <p>Phone</p>
+                            <div class="section-request__input-area_block">
+                                <span>Your phone number:</span>
+                                <input type="number" name="phone">
+                            </div>
+                        </div>
+                        <div class="section-request__input-area_input">
+                            <p>Email</p>
+                            <div class="section-request__input-area_block">
+                                <span>Your email:</span>
+                                <input type="text" name="email">
+                            </div>
+                        </div>
+                    </div>
+                    <label class="section-request__checkbox">
+                        <input type="checkbox" class="checkbox-real" name="term">
+                        <span class="checkbox-fake"></span>
+                        <span class="checkbox-title">I agree to the processing of personal<br> data</span>
+                    </label>
+                    <button class="section-request__form_btn">Call the measurer</button>
                 </div>
-            </div>
-            <div class="section-request__input-area_input">
-                <p>Phone</p>
-                <div class="section-request__input-area_block">
-                    <span>Your phone number:</span>
-                    <input type="number" name="phone">
-                </div>
-            </div>
-            <div class="section-request__input-area_input">
-                <p>Email</p>
-                <div class="section-request__input-area_block">
-                    <span>Your email:</span>
-                    <input type="text" name="email">
-                </div>
-            </div>
-        </div>
-        <label class="section-request__checkbox">
-            <input type="checkbox" class="checkbox-real" name="term">
-            <span class="checkbox-fake"></span>
-            <span class="checkbox-title">I agree to the processing of personal<br> data</span>
-        </label>
-<button class="section-request__form_btn">Call the measurer</button>
-</div>
                 <div class="section-request__logo">
-                    <div class="section-request__logo_logo"></div>
-                    <p>Help save 10 - 20% of the<br>
-                        cost of materials</p>
+                    <img class="section-request__logo_logo" src="./images/pig.svg" alt="request-logo"></img>
+                    <div>Help save 10 - 20% of the<br>
+                        cost of materials</div>
+                </div>
+            </section>
+            <section class="section-fantasies">
+                <div class="section-fantasies__wrapper">
+                    <div class="section-fantsies__wrapper_header">We realize your wildest fantasies</div>
+                    <ul class="section-fantasies__wrapper_list">
+                        <li>American classic</li>
+                        <li>Empire</li>
+                        <li>Classical</li>
+                        <li>Loft</li>
+                        <li>Minimalism</li>
+                        <li>Provence</li>
+                        <li>Romanticism</li>
+                        <li>Scandinavian style</li>
+                        <li>Mediterranean style</li>
+                        <li>High tech</li>
+                        <li>Eclecticism</li>
+                    </ul>
+                    <div class="section-fantasies__wrapper_photo"></div>
+                    <div class="section-fantasies__wrapper_photo"></div>
+                    <div class="section-fantasies__wrapper_photo"></div>
+                    <div class="section-fantasies__wrapper_photo"></div>
+                </div>
+            </section>
+            <section class="section-clients">
+                <div class="section-clients__background"></div>
+                <div class="section-clients__background"></div>
+                <div class="section-clients__logo">
+                    <div>our clients</div>
+                    <img src="./images/hands.svg" alt="hands-logo">
+                </div>
+                <div class="section-clients__text">80% of our customers recommend us to their<br>
+                    friends and family.</div>
+                <div class="section-clients__cards">
+                    <div class="section-clients__cards_card">
+                        <div><img src="./images/maria.jpg" alt="maria-photo">
+                            <h5>Fedosova Maria
+                                Konstantinovna</h5>
+                        </div>
+                        <span>I want to thank the guys for their work. We put your shower part in repair. I am very
+                            grateful that I referred to the repair as to my own. Great thanks I express the project
+                            to Georgia for its professionalism and approach.
+                            The repair process was turned out in terms, faster than anticipated. Team mobile and
+                            professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                            democratic. I recommend these masters.</span>
+                        <div class="section-clients__cards_card-client"></div>
+                    </div>
+                    <div class="section-clients__cards_card">
+                        <div><img src="./images/sergei.jpg" alt="segei-photo">
+                            <h5>Afanasyev Sergey Alexandrovich</h5>
+                        </div>
+                        <span>I want to thank the guys for their work. We put your shower part in repair. I am very
+                            grateful that I referred to the repair as to my own. Great thanks I express the project
+                            to Georgia for its professionalism and approach.
+                            The repair process was turned out in terms, faster than anticipated. Team mobile and
+                            professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                            democratic. I recommend these masters.</span>
+                        <div class="section-clients__cards_card-client"></div>
+                    </div>
+                    <div class="section-clients__cards_card">
+                        <div><img src="./images/egor.jpg" alt="egor-photo">
+                            <h5>Kiriev Egor<br> Leonidovich</h5>
+                        </div>
+                        <span>I want to thank the guys for their work. We put your shower part in repair. I am very
+                            grateful that I referred to the repair as to my own. Great thanks I express the project
+                            to Georgia for its professionalism and approach.
+                            The repair process was turned out in terms, faster than anticipated. Team mobile and
+                            professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                            democratic. I recommend these masters.</span>
+                        <div class="section-clients__cards_card-client"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-map">
+                <div class="section-map__wrapper">
+                    <div class="section-map__questions">
+                        <h2>have any questions?</h2>
+                        <div class="section-map__input-area">
+                            <div class="section-map__input-area_input">
+                                <p>Name</p>
+                                <div class="section-map__input-area_block">
+                                    <span>What is your name:</span>
+                                    <input type="text" name="name">
+                                </div>
+                            </div>
+                            <div class="section-map__input-area_input">
+                                <p>Phone</p>
+                                <div class="section-map__input-area_block">
+                                    <span>Your phone number:</span>
+                                    <input type="number" name="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-map__input-area">
+                            <div class="section-map__input-area_solo">
+                                <p>Question</p>
+                                <div class="section-map__input-area_block">
+                                    <span>I want to know:</span>
+                                    <input type="text" name="text">
+                                </div>
+                            </div>
+                        </div>
+                        <label class="section-map__checkbox">
+                            <input type="checkbox" class="checkbox-real" name="term">
+                            <span class="checkbox-fake"></span>
+                            <span class="checkbox-title">I agree to the processing of personal<br> data</span>
+                        </label>
+                        <div class="section-map__button">
+                            <button class="section-map__button_btn" type="button">Submit</button>
+                        </div>
+                    </div>
+                    <div class="section-map__header">
+                        <p>Rostov-on-Don, Nansen St., 239 Shopping Center<br>
+                            Decorum Tel +7 (928) 768 32 29</p>
+                    </div>
+                    <div class="section-map__logo-wrapper">
+                        <img src="./images/contact-logo.svg" alt="contacts-logo">
+                    </div>
+                    <div class="section-map__map"></div>
                 </div>
             </section>
 
@@ -228,7 +347,17 @@
 
     <footer class="footer">
         <div class="container">
-
+            <p class="footer__naming">IC "Repair Design Project"</p>
+            <ul class="footer__list">
+                <li class="footer__list_link"><a href="">HOME</a></li>
+                <li class="footer__list_link"><a href="">PROJECTS</a></li>
+                <li class="footer__list_link"><a href="">MEASUREMENT</a></li>
+                <li class="footer__list_link"><a href="">TEAM</a></li>
+                <li class="footer__list_link"><a href="">REVIEWS</a></li>
+                <li class="footer__list_link"><a href="">CONTACTS</a></li>
+            </ul>
+            <a class="footer__contact-number" href="tel:+7 (928) 768-32-39" target="_blank">+7 (928) 768-32-39</a>
+            <button class="footer__btn">Request a call</button>
         </div>
     </footer>
 
