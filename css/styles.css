@@ -334,6 +334,11 @@ html {
     text-decoration: underline;
 }
 
+.section-completed__interior_list li:first-child {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
 .section-completed__interior_image {
     width: 47.2vw;
     height: 33.5vw;

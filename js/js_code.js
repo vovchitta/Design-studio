@@ -1,4 +1,8 @@
-const slide = document.getElementById('slide');
+const slide = document.getElementById('slide'),
+city = document.getElementById('city'),
+area = document.getElementById('area'),
+time = document.getElementById('time'),
+cost = document.getElementById('cost'),
 firstLink = document.getElementById('first-link'),
 secondLink = document.getElementById('second-link'),
 thirdLink = document.getElementById('third-link'),
@@ -17,6 +21,10 @@ function firstAction () {
     firstCircle.style = 'background: white;';
     secondCircle.style = 'background: grey;';
     thirdCircle.style = 'background: grey;';
+    city.innerHTML = 'Rostov-on-Don<br>LCD admiral';
+    area.innerHTML = '81 m2';
+    time.innerHTML = '3.5 months';
+    cost.innerHTML = 'Upon request';
 }
 
 const firstClick = firstCircle.addEventListener('click', firstAction);
@@ -29,6 +37,10 @@ function secondAction () {
     firstCircle.style = 'background: grey;';
     secondCircle.style = 'background: white;';
     thirdCircle.style = 'background: grey;';
+    city.innerHTML = 'Sochi<br>Thieves';
+    area.innerHTML = '105 m2';
+    time.innerHTML = '4 months';
+    cost.innerHTML = 'Upon request';
 }
 
 const secondClick = secondCircle.addEventListener('click', secondAction);
@@ -41,6 +53,10 @@ function thirdAction () {
     firstCircle.style = 'background: grey;';
     secondCircle.style = 'background: grey;';
     thirdCircle.style = 'background: white;';
+    city.innerHTML = 'Rostov-on-Don<br>Patriotic';
+    area.innerHTML = '93 m2';
+    time.innerHTML = '3 months';
+    cost.innerHTML = 'Upon request';
 }
 
 const thirdtClick = thirdCircle.addEventListener('click', thirdAction);
